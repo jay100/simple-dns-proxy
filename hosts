@@ -1,7 +1,2 @@
-## 127.0.0.1  simple-dns-proxy.com
-127.0.0.1  simple-dns-proxy.com
-127.0.0.1  *.matches.net
-127.0.0.1 ejob.cc
-
-127.0.0.1 service.cc
-127.0.0.1  simple-dns-proxy.cc
+127.0.0.1 test.net
+127.0.0.1 *.matches.net
