@@ -10,8 +10,7 @@
 - 修改服务名称 ，打开 myService.xml
     
     默认名称 ：SimpleDNSProxy 可以不用修改
-    
-      
+    ````
     <configuration>
     <id>SimpleDNSProxy</id>
     <name>SimpleDNSProxy</name>
@@ -20,8 +19,7 @@
     <arguments>-jar dnsproxy-1.0-SNAPSHOT.jar 8.8.8.8 53 --print</arguments>
     <logmode>rotate</logmode>
     </configuration>
-   
-
+    ```` 
    
 
 - 执行 install-service.bat
