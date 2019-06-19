@@ -59,7 +59,7 @@ public class DNSForwarder extends Thread{
             // 从远程服务器接收数据
             DatagramPacket response = new DatagramPacket(new byte[12800], 12800);
             serverSocket = new DatagramSocket();
-            serverSocket.setSoTimeout(5000);
+            serverSocket.setSoTimeout(2000);
             serverSocket.send(sendData);
             if(serverSocket.isClosed())return;
             serverSocket.receive(response);
